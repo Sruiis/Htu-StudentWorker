@@ -8,8 +8,8 @@ from aip import AipOcr
 if __name__ == "__main__":
     URL = "https://htu.g8n.cn/student/course/44867"
 
-    STU_ID = input("学号：")
-    NAME = input("姓名：")
+    STU_ID = 2128124002
+    NAME = '李嘉睿'
 
     # 百度OCR
     APP_ID = '26285953'
