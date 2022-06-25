@@ -2,8 +2,8 @@ import json
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options as FirefoxOptions
-# from aip import AipOcr
+from selenium.webdriver.chrome.options import Options as ChromeOptions
+from aip import AipOcr
 
 URL = "https://htu.g8n.cn/student/course/44867"
 
@@ -23,10 +23,10 @@ def baidu_ocr():
 
 # 浏览器参数设置
 def set_browser():
-    options = FirefoxOptions()
+    options = ChromeOptions()
     options.add_argument("--disable-blink-features")
     options.add_argument("--disable-blink-features=AutomationControlled")
-    browser = webdriver.Firefox(options=options)
+    browser = webdriver.Chrome(chrome_options=options)
     return options, browser
 
 
@@ -58,7 +58,7 @@ def login(browser, client):
 
 # 保存cookies
 def save_cookie(browser):
-    with open('cookies.json', 'w') as f:
+    with open(f'{STU_ID}{NAME}.json', 'w') as f:
         f.write(json.dumps(browser.get_cookies()))
 
 
