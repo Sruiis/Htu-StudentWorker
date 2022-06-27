@@ -3,18 +3,18 @@
     "domain": "htu.g8n.cn",
     "expiry": 1813540245,
     "httpOnly": true,
-    "name": "remember_student_59ba36addc2b2f9401580f014c7f58ea4e30989d",
+    "name": "",
     "path": "/",
     "secure": false,
-    "value": "1308477%7CVCeGwhv01v4JJa670Cwu2aJLLdSw0f9NF7VDRyUNucwjuNyvh9q0Fg13Tge6%7C"
+    "value": ""
   },
   {
     "domain": "htu.g8n.cn",
     "expiry": 1655867446,
     "httpOnly": true,
-    "name": "yxktmf",
+    "name": "",
     "path": "/",
     "secure": false,
-    "value": "Aga58GMRQKBKUU7TyuKbDhMAUgNdwvNpw64uyxQ3"
+    "value": ""
   }
 ]
