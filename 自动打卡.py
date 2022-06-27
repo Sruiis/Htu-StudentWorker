@@ -8,13 +8,13 @@ from aip import AipOcr
 if __name__ == "__main__":
     URL = "https://htu.g8n.cn/student/course/44867"
 
-    STU_ID = 2128124002
-    NAME = '李嘉睿'
+    STU_ID = '学号'
+    NAME = '姓名'
 
     # 百度OCR
-    APP_ID = '26285953'
-    API_KEY = 'izB3S3DN9HBIM1ZVvvtUQc7U'
-    SECRET_KEY = 'eXKnjuTPW9c2sc3vo1jk40FeNLyxLSkT'
+    APP_ID = ''
+    API_KEY = ''
+    SECRET_KEY = ''
     client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 
     # 浏览器参数设置
